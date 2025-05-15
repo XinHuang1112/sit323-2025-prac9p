@@ -1,0 +1,70 @@
+/* ——— 你的原始样式 ——— */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    padding: 50px;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ——— User List 区域的样式扩展 ——— */
+.user-section {
+    margin-top: 2rem;
+}
+
+#user-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#user-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#user-list .name {
+    flex: 1;
+}
+
+#user-list button {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}

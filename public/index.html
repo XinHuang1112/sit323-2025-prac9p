@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Simple Web Page</title>
+  <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+  <header>
+    <img src="/images/logo.png" alt="Logo" class="logo"/>
+    <h1>Welcome to Xin Huang's Web Page!</h1>
+  </header>
+  <main>
+    <p>This is a simple web page built with Node.js and Express.</p>
+    <section class="user-section">
+      <h2>User List</h2>
+      <form id="user-form">
+        <input id="user-name" type="text" placeholder="Enter name" required />
+        <button type="submit">Add</button>
+      </form>
+      <ul id="user-list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Web Page. All rights reserved.</p>
+  </footer>
+  <script src="/js/users.js"></script>
+</body>
+</html>

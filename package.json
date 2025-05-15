@@ -1,0 +1,14 @@
+{
+    "name": "sit323-2025-prac9p",
+    "version": "1.0.0",
+    "description": "Simple Node.js + Express + MongoDB CRUD app",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.3.1"
+    }
+  }
+  
